@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style modul 3.css">
+</head>
+<body>
+    <header>
+    <h1>Gian Ayodya W.D</h1>
+    <p>Siswa kelas X SMK, calon junior Wed Developer di kelas Industri UBIG</p>
+    <nav>
+        <ul>
+            <li><a href="Modul 3 index.html">Beranda</a></li>
+            <li><a href="Modul 3 proyek.html">Proyek</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section class="kartu">
+            <h1>Hubungi Saya</h1>
+            <p>punya pertanyaan atau ingin bekerja sama ? isi form berikut.</p>
+
+            <form>
+                <p>
+                    <label for="nama">Nama lengkap</label>
+                    <br>
+                    <input type="text" id="nama" name="nama" placeholder="Contoh: Orang baik" required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" id="email" name="email" placeholder="nama@gimail" required>
+                </p>
+
+                <p>
+                    <label for="hp">Nomer HP</label>
+                    <br>
+                    <input type="text" id="hp" name="hp" placeholder="0883-7623-5723" required>
+                </p>
+
+                <p>
+                    <label for="keperluan">keperluan</label>
+                    <br>
+                    <select name="keperluan" id="keperluan" required>
+                        <option value="">--Pilih keperluan</option>
+                        <option value="bertanya">Bertanya</option>
+                        <option value="kerja-sama">Kerja sama proyek</option>
+                        <option value="lainya">Lainya</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="pesan">Pesan</label>
+                    <br>
+                    <textarea name="pesan" id="pesan" rows="5" cols="40" placeholder="Tulis pelasan mu  di sini" required></textarea>
+                </p>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
